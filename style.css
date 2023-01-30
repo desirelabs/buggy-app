@@ -1,0 +1,22 @@
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#title {
+  color: red;
+  text-align: center;
+}
+
+#description {
+  color: blue;
+  text-align: center;
+}
+
+#button {
+  color: green;
+  text-align: center;
+  margin: 0 auto;
+  width: 300px;
+}
