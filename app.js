@@ -1,4 +1,4 @@
-(function() {
+(function () {
   "use strict";
 
   const title = document.getElementById("title");
@@ -7,7 +7,7 @@
   button.addEventListener("click", () => {
     // This line will throw an error because the property does not exist
     title.textContentt = "Hello World";
-    console.log("Button was clicked, text updated");
+    console.log("Heading is now 'Hello World'");
   });
 
   fetch("https://nonexistent-api.com/data")
@@ -18,4 +18,4 @@
     .catch((error) => {
       console.error("Network error: ", error);
     });
-}());
+})();
